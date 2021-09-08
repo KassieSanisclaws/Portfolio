@@ -1,0 +1,405 @@
+@import"../../global.scss";
+
+.designux-section{
+    padding: 0;
+    margin: 0;
+      
+}
+
+.designux-container{
+    // background-image: url("../../images/background_img_green.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 92.5vh;
+    background-color: #2A4421;
+    place-items: center center;
+    font-family: "Lucida Handwriting";
+    border: 3px solid black;
+    display: flex;
+ 
+}
+
+.designux-container::before{
+    content: "";  
+    position: absolute;
+    width: 49.8%;
+    height: 100%;
+    // background-image: url("../../../images/background_img_green15.png");
+    background-color: #C4F59D;
+   
+ 
+}
+
+
+.designux{
+   margin: 0 auto;
+   width: 95%;
+   justify-content: center;
+   overflow: hidden;
+    
+}
+
+.designux-header{
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+
+
+}
+
+
+.designux-h1{
+   font-family: "Lucida Handwriting";
+   font-size: 40px;
+   font-weight: 500;
+   color:whitesmoke;
+   transform: skewX(-6deg);
+   text-decoration: underline white;
+   
+}
+
+
+.designux-gallery-cards{
+    display: inline-flex;
+    transition: transform 0.3s ease-out;
+    transform: translateX(0);
+    width: 100%;
+    padding: 20px;
+    grid-gap:20px;
+    transform: skewX(0deg);
+}
+
+
+.designux-gallery-card{
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    height: 98%;
+    width: 90%;
+}
+
+
+.designux-gallery-card:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+
+.designux-gallery-card1:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+
+.designux-gallery-card2:hover{
+      transform-style: preserve-3d;
+      transform: scale(1.05);
+      transition: all ease 0.2s;
+      cursor: pointer;
+}
+
+.designux-gallery-card3:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+
+.designux-gallery-card4:hover{
+    transform-style: preserve-3d;
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+
+.designux-gallery-container{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-container1{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-container2{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-container3{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-container4{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-container::after{
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 20px 20px 0 0;
+      opacity: 0.7;
+
+}
+
+
+.designux-gallery-container1::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+
+}
+
+
+.designux-gallery-container2::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+
+}
+
+
+.designux-gallery-container3::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+
+}
+
+
+.designux-gallery-container4::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+
+}
+
+
+.designux-gallery-card>.designux-gallery-container::after{
+    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+.designux-gallery-card>.designux-gallery-container1::after{
+    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-card>.designux-gallery-container2::after{
+    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+
+
+.designux-gallery-card>.designux-gallery-container3::after{
+    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-card>.designux-gallery-container4::after{
+    background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+}
+
+
+.designux-gallery-img{
+     width: 100%;
+     background-color: #2A4421;
+     display: block;
+     border-radius: 20px 20px 0 0;  
+}
+
+.designux-gallery-details{
+     padding: 20px 10px;
+     font-size: 100%;
+     
+}
+
+
+.designux-gallery-h3{
+     color: aliceblue;
+     font-weight: 600;
+     font-size: 18px;
+     margin: 10px 0 15px 0;
+
+}
+
+
+.designux-gallery-details>p{
+    color: #a0a0a0;
+    
+    line-height: 20px;
+    font-weight: 400;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    border-radius: 3%;
+    
+}
+
+
+.designux-button-card1{
+    flex-wrap: wrap;
+    background-color: #7da76f;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 8px 10px;
+    font-size: 100%;
+    border-radius: 7px;
+}
+
+
+.designux-button-card2{
+    flex-wrap: wrap;
+    background-color: #7da76f;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 8px 10px;
+    font-size: 100%;
+    border-radius: 7px;
+}
+
+
+.designux-button-card3{
+    flex-wrap: wrap;
+    background-color: #7da76f;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 8px 10px;
+    font-size: 100%;
+    border-radius: 7px;
+}
+
+
+.designux-button-card4{
+    flex-wrap: wrap;
+    background-color: #7da76f;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 8px 10px;
+    font-size: 100%;
+    border-radius: 7px;
+}
+
+
+// .portfolio-buttons{
+//   position: absolute;
+//   margin-top: -18%;
+
+
+// }
+
+
+// .portfolio-prev{
+//    border-radius: 10px;
+//    border: none;
+//    background: none;
+//    font-weight: 500;
+//    cursor:  pointer;
+//    height: 15vh;
+//    width: 2%;
+//    background-color: rgba(0, 0, 0, 0.432);  
+//    transform: skewX(0deg);
+//    position: absolute;
+//    margin-top: -19%;
+// }
+
+
+// .portfolio-prev:hover{
+//     background-color: rgb(176, 214, 120);
+//     transform-style: preserve-3d;
+//     transform: scale(1.05);
+//     transition: all ease 0.2s;
+//     cursor: pointer;
+//     box-shadow: 3px 3px 3px rgb(255, 255, 255);
+// }
+
+
+// .portfolio-next{
+//     border-radius: 10px;
+//     border: 0;
+//     font-weight: 500;
+//     cursor:  pointer;
+//     width: 2%;
+//     height: 60vh;
+//     background-color: rgba(0, 0, 0, 0.247);  
+//     transform: skewX(0deg);
+//     position: absolute;
+//     margin-left: 94%;
+//     margin-top: -29.4%;
+// }
+
+
+// .portfolio-next:hover{
+//     background-color: rgb(176, 214, 120);
+//     transform-style: preserve-3d;
+//     transform: scale(1.05);
+//     transition: all ease 0.2s;
+//     cursor: pointer;
+//     box-shadow: 3px 3px 3px rgb(255, 255, 255);
+// }

@@ -1,0 +1,241 @@
+@import"../../../src/global.scss";
+
+.about-container{
+    background-size: cover;
+    background-position: center;
+    background-color: #2A4421; 
+    height: 100%;     
+}
+
+
+.about-container::before{
+    content: "";  
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    // background-image: url("../../../images/background_img_green15.png");
+   //  background-color: #2A4421;
+   background-color: #C4F59D;
+
+}
+
+
+.about{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-auto-rows: minmax(100px, auto);
+   grid-gap: 3rem;
+   transform: skewX(-2deg);
+   margin-top: 7rem;
+
+}
+
+.about-banner{
+    background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
+    // background-color: rgba(127, 255, 212, 0.555);
+    transform: skewX(0deg);
+    width: 100%;
+    height: 5vh;
+   
+}
+
+.about-h1{
+    // transform: skewX(6deg);
+    // text-align: center;
+    // margin-top: -.001rem;
+    // padding: 10px;
+    // text-transform: uppercase;
+    // font-size: 30px;
+    // font-family: "Lucida Handwriting";
+    // text-shadow: 4px 4px 7px rgba($color: $txtColorGreen, $alpha: 0.45);
+}
+
+.about-section{
+    background: linear-gradient(rgba(20, 206, 76, 0.24), rgba(10, 182, 76, 0.253));
+    transform: skew(0deg);
+    width: 98%;
+    height: 90%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 5%;
+    // position: absolute;
+}
+
+.about-cards{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-items: center;
+   position: absolute;
+   margin-left: 2rem;
+   grid-gap: 1rem;
+}
+
+
+.about-card1{
+    // background-color: rgba(127, 255, 212, 0.555);
+    width: 45vw;
+    height: 88vh;
+    display: grid;
+    margin-top: .5rem;
+    border-radius: 8%;
+
+}
+
+.about-card1-section-header{
+    background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
+    margin-top: .5rem;
+    width: 95%;
+    height: 15vh;
+    border-radius: 70px;
+    margin-left: 2.5%;
+    // box-shadow: 1px 1px 2px 2px black;
+}
+
+
+.about-card1-section-h2{
+    color: #2A4421;
+    text-align: center;
+    font-size: 11vh;
+}
+
+.about-card1-section-body{
+    margin-top: .5rem;
+    background-color: rgba(42, 165, 104, 0.479);
+    width: 43vw;
+    height: 65vh;
+    margin-left: 1.3rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 30px;
+    opacity: .8;
+}
+
+.about-card1-section-body .lorem1{
+    margin-top: .5rem;
+ }
+
+.about-card1-section-body .lorem1:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem2:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem3:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem4:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem5:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem6:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem7:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ }
+
+.about-card1-section-body .lorem8:hover{
+    color:springgreen;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+ } 
+
+.about-card1-section-button1{
+    flex-wrap: wrap;
+    background-color: #2A4421;
+    width: 15vw;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 1%;
+    padding: 8px 10px;
+    font-size: 100%;
+}
+
+.about-card1-section-button2{
+    flex-wrap: wrap;
+    background-color: #2A4421;
+    width: 15vw;
+    margin-left: 10%;
+    cursor: pointer;
+    margin-top: 1%;
+    padding: 8px 10px;
+    font-size: 100%;
+}
+
+.about-card2{
+    background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
+    width: 40vw;
+    height: 83vh;
+    margin-top: 3.7%;
+    border-radius: 18%;
+    margin-left: 10%;
+}
+
+.about-image-container{
+    background-color: rgba(42, 165, 104, 0.479);
+    width: 35vw;
+    height: 74vh;
+    margin-top: 5.4%;
+    margin-left: 6.4%;
+    border-radius: 10%;
+}
+
+.about-image-card{
+    place-items: center center;
+    background-position: center;
+    background-size: cover;
+    width: 32vw;
+    height: 70vh;
+    margin-left: 4.3%;
+    border-radius: 15%;
+}
+
+

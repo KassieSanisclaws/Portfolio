@@ -1,0 +1,332 @@
+@import "../../global.scss";
+
+.skills-container{
+    // background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466)); 
+    display: flex; 
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    // background-color: #2A4421;    
+    border: 3px solid black;
+    transform: skewX(0deg);
+    background-color: #C4F59D;
+    margin-left: -.3%;
+    
+}    
+    
+.skills-container::before{
+    content: "";  
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 50.2%;
+    height: 100%;
+    // background-image: url("../../../images/background_img_green15.png");
+   //  background-color: #2A4421;
+   background-color: #2A4421;    
+   
+}
+
+
+.skills{ 
+
+.skills-h1{
+    background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
+    margin-top: 1rem;
+    width: 95%;
+    height: 11vh;
+    border-radius: 70px;
+    margin-left: 2.5%;
+    transform: skew(0deg);
+    text-align: center;
+    font-size: 70px;
+    text-decoration: double underline;
+}
+
+}
+
+.skills-section-content{
+       display: grid;
+       grid-template-columns: 51% 49%;
+       grid-auto-rows: minmax(100px, auto);
+       transform: skewX(0deg);
+       padding: 1%;
+       align-items: center;
+       margin-top: 1.5rem;
+    }   
+  
+  
+  .skills-content1{
+        display: flex;
+        padding: 2px;
+        margin-top: -8rem;
+        grid-column: 1/3;
+        grid-row: 1/3;
+        text-align: center;
+        justify-content: center;
+        font-size: 100%;
+        width: 95%;
+        justify-self: center;
+        grid-gap: 2rem;
+        overflow-y: hidden;
+  }
+  
+  .skills-content1 .skills-card1{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/html_icon.png");
+      align-self: center;
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+  
+  }
+  
+  
+  .skills-content1 .skills-card2{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/css_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+      
+  }
+  
+  .skills-content1 .skills-card3{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/php_icon.png");
+      background-position: 50% 30%;
+      background-size: cover;
+      border-radius: 50%; 
+      
+  }
+  
+  .skills-content1 .skills-card4{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/vsCode_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+      
+  }
+  
+  .skills-content1 .skills-card5{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/react_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+  
+  }
+  
+  
+  .skills-content1 .skills-card6{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/javascript_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+      
+  }
+  
+  .skills-content1 .skills-card7{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/laraval_icon.png");
+      background-size: cover;
+      background-position: 1% 30%;
+      border-radius: 50%;
+      
+  }
+  
+  .skills-content1 .skills-card8{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/nodejs_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%; 
+  }
+  
+  .skills-content1 .skills-card9{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/mysql_icon.png");
+      background-size: cover;
+      background-position: 50% 50%;
+      border-radius: 50%;
+  
+  }
+  
+  
+  .skills-content1 .skills-card10{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/angular_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+      
+  }
+  
+  .skills-content1 .skills-card11{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/github2_icon.png");
+      background-position: 50% 30%;
+      background-size: cover;
+      border-radius: 50%;
+      
+  }
+  
+  .skills-content1 .skills-card12{
+      height: 13vh;
+      width: 10vw;
+      background-image: url("../../images/skills-image/Adobe_icon.png");
+      background-size: cover;
+      background-position: 50% 30%;
+      border-radius: 50%;
+      
+  }
+  
+  
+  .skills-content2{
+      background-color: rgba(127, 255, 170, 0.192);
+      padding: 4px;
+      border: 4px solid black;
+      width: 45vw;
+      height: 58vh;
+      margin-top: -5rem;
+      margin-left: 2%;
+      border-radius: 13px;
+      box-shadow: 1px 1px 1px 1px black; 
+  }
+  
+  .skills-content2-container{
+      overflow: hidden;
+       overflow-y: scroll;
+       height: 53vh;
+       cursor: pointer;
+  }
+  
+  .skills-content2-container .lorem5:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+  
+   .skills-content2-container .lorem6:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content2-container .lorem7:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content2-container .lorem8:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content2-container .lorem9:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+  .skills-content2:hover{
+      transition: 0.3s all;
+     transform: scale(1.045); 
+  }
+  
+  .skills-content2 .header-content2{
+      color: aliceblue;
+  }
+  
+  .skills-content2 .header-content2:hover{
+      background-color: darkolivegreen;
+  }
+  
+  
+  .skills-content3{
+      background-color: rgba(127, 255, 170, 0.192);
+      padding: 4px;
+      border: 4px solid black;
+      width: 46vw;
+      height: 58vh;
+      margin-top: -5rem;
+      margin-left: 1.5%;
+      border-radius: 13px;
+      box-shadow: 1px 1px 1px 1px black; 
+  }
+  
+  .skills-content3-container{
+      overflow: hidden;
+       overflow-y: scroll;
+       height: 450px;
+       cursor: pointer;
+  }
+  
+  .skills-content3:hover{
+      transition: 0.3s all;
+     transform: scale(1.045); 
+  }
+  
+  .skills-content3-container .lorem10:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content3-container .lorem11:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content3-container .lorem12:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content3-container .lorem13:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+   }
+  
+   .skills-content3 .header-content3:hover{
+      background-color: darkolivegreen;
+  }
