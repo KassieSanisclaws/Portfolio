@@ -2,6 +2,7 @@ import './intro.scss';
 import { useEffect, useRef } from 'react';
 import { init } from 'ityped';
 import Presentation from "../../videos/presentation.mp4";
+import BCBLogo from "../../images/generic-images/BCB_FInal.jpg";
 
 
 export default function Intro() {
@@ -22,7 +23,7 @@ return(
      <div className="intro" id="intro">
             <div className="intro-left-content">
                   <div className="intro-image-Container">
-                        <img src="assets/Salon_image-16.png" alt=""/>
+                        <img src={BCBLogo} alt=""/>
                     </div>
               </div>
                      <div className="right">

@@ -3,6 +3,7 @@
 .designux-section{
     padding: 0;
     margin: 0;
+    height: 100%;
       
 }
 
@@ -11,13 +12,11 @@
     background-size: cover;
     background-position: center;
     height: 100%;
-    min-height: 92.5vh;
-    background-color: #2A4421;
+    background-color: #C4F59D;
     place-items: center center;
     font-family: "Lucida Handwriting";
     border: 3px solid black;
     display: flex;
- 
 }
 
 .designux-container::before{
@@ -26,8 +25,7 @@
     width: 49.8%;
     height: 100%;
     // background-image: url("../../../images/background_img_green15.png");
-    background-color: #C4F59D;
-   
+     background-color: #2A4421;
  
 }
 
@@ -35,8 +33,7 @@
 .designux{
    margin: 0 auto;
    width: 95%;
-   justify-content: center;
-   overflow: hidden;
+   margin-top: -5rem;
     
 }
 
@@ -45,18 +42,17 @@
   padding: 10px;
   text-transform: uppercase;
 
-
 }
 
 
 .designux-h1{
    font-family: "Lucida Handwriting";
-   font-size: 40px;
+   font-size: 80px;
    font-weight: 500;
-   color:whitesmoke;
-   transform: skewX(-6deg);
+   color:rgba(245, 245, 245, 0.904);
+   transform: skewX(0deg);
    text-decoration: underline white;
-   
+   background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
 }
 
 

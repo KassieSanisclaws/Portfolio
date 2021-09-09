@@ -8,7 +8,7 @@ export default function skills() {
         <div className="skills">
 
             <div className="skills-header">
-                <h1 className="skills-h1">Skills</h1>
+                <h1 className="skills-h1">Skills:</h1>
             </div>     
 
 

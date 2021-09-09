@@ -10,7 +10,7 @@ export default function DesignUX() {
                
                <div className="designux">
                      <div className="designux-header">
-                         <h1 className="designux-h1">DesignUx:</h1>
+                         <h1 className="designux-h1">UX-Design ProtoTypes:</h1>
                      </div>
 
 

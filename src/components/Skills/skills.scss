@@ -24,7 +24,6 @@
     width: 50.2%;
     height: 100%;
     // background-image: url("../../../images/background_img_green15.png");
-   //  background-color: #2A4421;
    background-color: #2A4421;    
    
 }
@@ -32,8 +31,17 @@
 
 .skills{ 
 
+.skills-header h1{
+    color: #2A4421;
+    color:rgba(255, 255, 255, 0.87);
+    transform: skewX(-4deg);
+    text-decoration: underline white;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
 .skills-h1{
-    background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
     margin-top: 1rem;
     width: 95%;
     height: 11vh;
@@ -41,7 +49,7 @@
     margin-left: 2.5%;
     transform: skew(0deg);
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
     text-decoration: double underline;
 }
 

@@ -6,6 +6,7 @@ import Menu from './components/menu/Menu';
 import AboutMe from "./components/aboutme/aboutme";
 import Skills from "./components/Skills/skills";
 import DesignUX from "./components/design-ux/designux";
+import Education from "./components/Education/education";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,6 +21,7 @@ function App() {
 
       <AboutMe />
       <Skills />
+      <Education />
       <DesignUX />
       {/* <Portfolio />
       <Remarks />
