@@ -32,25 +32,34 @@
 .skills{ 
 
 .skills-header h1{
-    color: #2A4421;
+    // color: #2A4421;
     color:rgba(255, 255, 255, 0.87);
-    transform: skewX(-4deg);
     text-decoration: underline white;
-    font-style: italic;
     text-transform: uppercase;
+    font-family: "Lucida Handwriting";
+    font-style: italic;
+    transform: skew(0deg);
+}
+
+.skills-header h1:hover{
+    color: azure;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.045);
+    transform: skew(-6deg);
 }
 
 .skills-h1{
     background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
     margin-top: 1rem;
-    width: 95%;
-    height: 11vh;
+    width: 30vw;
     border-radius: 70px;
-    margin-left: 2.5%;
-    transform: skew(0deg);
+    margin-left: 35%;
     text-align: center;
-    font-size: 90px;
     text-decoration: double underline;
+    font-size: 53px;
 }
 
 }

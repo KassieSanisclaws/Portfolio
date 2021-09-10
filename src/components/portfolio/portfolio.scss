@@ -1,0 +1,92 @@
+@import "../../global.scss";
+
+.portfolio-section-body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-section{
+    display: grid; 
+    height: 100vh;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #2A4421;       
+    border: 3px solid black;
+    transform: skewX(0deg);
+    
+}
+
+.portfolio-section::before{
+    content: "";  
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    // background-image: url("../../../images/background_img_green15.png");
+    background-color: #C4F59D
+}
+
+.portfolio-section-header{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+    width: 30vw;
+    height: 8vh;
+    transform: skew(0deg);
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+// .portfolio-section-header h1:hover{
+//     color: azure;
+//     font-weight: bolder;
+//     font-style: italic;  
+//     text-shadow: 4px 4px 4px 4px white;
+//     transition: 0.3s all ease-in-out;
+// }
+
+.portfolio-section-header-h1{
+    color: #f5f5f5; 
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+    font-size: 60px;
+}
+
+.portfolio-section-header-h1:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-style: italic;  
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+    transform: scale(1.045);
+    transform: skew(-6deg);
+}
+
+.portfolio-section-body-cards{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+     height: 88vh;
+     width: 93vw;
+     transform: skew(0deg);
+     border-radius: 50px;
+     margin-left: 1.4%;
+}
+
+.portfolio-section-cards{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+    width: 90vw;
+    height: 80vh;
+    margin-top: 2%;
+    margin-left: 1.7%;
+    transform: skew(0deg);
+    border-radius: 50px;
+}
+
+
+

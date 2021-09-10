@@ -1,0 +1,93 @@
+@import"../../global.scss";
+
+.portfolioCardSection-body{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3rem;
+}
+
+.portfolio-section-card{
+    height: 33vh;
+    width: 15vw;
+    background-color: #7da76f59;
+    border-radius: 5%;
+    padding: 3px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.portfolio-section-card-header{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+}
+
+.portfolio-section-card:hover{
+    transform: scale(1.045);
+    transition: 0.3s all;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 4px white;
+
+}
+
+.portfolio-section-card-image{
+    background-image: url("../../images/intro-images/background_img_green.png");
+    height: 15vh;
+    width: 100%;
+}
+
+.portfolio-section-card-banner{
+    // background-color: cadetblue;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    height: 4vh;
+    width: 100%;
+    font-weight: 500;
+}
+
+.portfolio-section-card-banner p{
+    margin-top: 2%;
+    transform: skew(-6deg);
+    transition: 0.3s all;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+.portfolio-section-card-image-container{
+    background-color: darkorchid;
+    width: 100%;
+    height: 5vh;
+}
+
+.portfolio-section-card-button-container{
+    width: 100%;
+    height: 3vh;
+    border-radius: 3.5px;
+}
+
+.portfolio-section-card-container-button{
+    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
+    flex-wrap: wrap;
+    width: 4vw;
+    margin-left: 14%;
+    cursor: pointer;
+    padding: 8px 10px;
+    height: 2vh;
+    font-size: 100%;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    position: relative;
+}
+
+.portfolio-section-card-container-button:hover{
+    background-color: rgb(245, 255, 240);
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-shadow: 1px 1px 1px 1px white;
+}
+

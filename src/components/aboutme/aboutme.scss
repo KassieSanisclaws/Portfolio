@@ -104,6 +104,27 @@
     text-decoration: underline white;
     font-style: italic;
     text-transform: uppercase;
+   
+}
+
+.about-card1-section-header h2{
+    color:rgba(255, 255, 255, 0.87);
+    transform: skewX(-6deg);
+    text-decoration: underline white;
+    text-transform: uppercase;
+    font-family: "Lucida Handwriting";
+    font-style: italic;
+    font-size: 70px;
+    
+}
+
+.about-card1-section-header h2:hover{
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.045);
 }
 
 .about-card1-section-body{
@@ -196,24 +217,28 @@
 
 .about-card1-section-button1{
     flex-wrap: wrap;
-    background-color: #2A4421;
+    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
     width: 15vw;
     margin-left: 10%;
     cursor: pointer;
     margin-top: 1%;
     padding: 8px 10px;
     font-size: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 .about-card1-section-button2{
     flex-wrap: wrap;
-    background-color: #2A4421;
+    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
     width: 15vw;
     margin-left: 10%;
     cursor: pointer;
     margin-top: 1%;
     padding: 8px 10px;
     font-size: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 .about-card2{
@@ -243,5 +268,7 @@
     margin-left: 4.3%;
     border-radius: 15%;
 }
+
+
 
 

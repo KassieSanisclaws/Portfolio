@@ -20,53 +20,289 @@
 .education-section::before{
     content: "";  
     position: absolute;
-    width: 50%;
+    width: 50.1%;
     height: 99.5%;
     // background-image: url("../../../images/background_img_green15.png");
     background-color: #C4F59D;
 }
 
 .education-header-h1{
-    background-color: aquamarine;
-    height: 8vh;
-    transform: skew(0deg);
+   font-family: "Lucida Handwriting";
+   font-style: italic;
+   font-size: 70px;
+   font-weight: 500;
+   color:rgba(245, 245, 245, 0.904);
+   transform: skewX(0deg);
+   text-decoration: underline white;
+   background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+   border-radius: 50px;
+   margin-top: .3%;
+   
 }
 
 .education-header h1{
-    width: 100%;
-    font-size: 50px;
+    width: 40%;
+    font-size: 55px;
     text-align: center;
+    color:rgb(255, 245, 245);
+    margin-left: 30%;
+}
+
+.education-header h1:hover{
+    color: azure;
+    font-weight: bolder;
+    font-style: italic;  
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ease-in-out;
 }
 
 .education-section-cards{
-    background-color: antiquewhite;
-    height: 80vh;
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+    height: 90vh;
     width: 97vw;
     transform: skew(0deg);
     display: grid;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
     margin-left: 1.3%;
+    border-radius: 30px;
 }
 
 .education-section-card1-image{
-     height: 10vh;
+     height: 30vh;
      width: 20vw;
-     background-color: red;
+     background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+     margin-left: 5%;
+     margin-top: 2%;
+     border-radius: 15%;
+     color: cornsilk;
+     background-image: url("../../images/generic-images/background_img_green15.png");
+     box-shadow: 1px 1px 1px 4px black;
 }
 
 .education-section-card2-image{
-    height: 10vh;
+     height: 30vh;
      width: 20vw;
-     background-color: rgb(217, 255, 0);  
+     background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); 
+     margin-left: -9%;
+     margin-top: 2%;
+     border-radius: 15%;
+     color: cornsilk;
+     background-image: url("../../images/generic-images/background_img_green14.png");
+     box-shadow: 1px 1px 1px 4px black;
 }
 
 .education-section-card3-image{
-    height: 10vh;
-     width: 20vw;
-     background-color: rgb(0, 255, 85);
+     height: 30vh;
+     width: 38vw;
+     background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); 
+     margin-left: -36.5%;
+     margin-top: 1%;
+     border-radius: 15px;
+     color: cornsilk;
+     background-image: url("../../images/generic-images/background_img_green13.png");
+     box-shadow: 1px 1px 1px 4px black;
+}
+
+.education-section-card4-header{
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+    color:rgb(255, 245, 245);
+    text-decoration: underline white;
+   
+}
+
+.education-section-card4-header h2:hover{
+   color: rgb(248, 255, 255);
+   transition: 0.3s all;
+   text-shadow: 4px 2px 4px 4px rgb(255, 255, 255);
+}
+
+.education-card4-header-h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Lucida Handwriting";
+    transform: skewX(-6deg);
      
 }
 
-.education-section-card1-image{
+.education-section-card4-description{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); 
+    height: 55vh;
+    width: 30vw;
+    margin-top: -4%;
+    margin-left: 20%;
+    border-radius: 2%;
+}
+
+.education-section-card4-description-body{
+    // background-color: #C4F59D;
+    height: 50vh;
+    width: 29vw;
+    overflow: hidden;
+    margin-left: 1.5%;
+    overflow-y: scroll;
+    margin-top: 1.5%;
+}
+
+.education-section-card4-description-body .card4-lorem1:hover{
+      color:springgreen;
+      transition: 0.3s all;
+      transform: scale(1.045);
+      box-sizing: border-box;
+      box-shadow: 2px 2px 2px 2px black;
+      margin-top: 1%;
+   
+}
+
+.education-section-card4-description-body .card4-lorem2:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+
+.education-section-card4-description-body .card4-lorem3:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
     
+}
+
+.education-section-card4-description-body .card4-lorem4:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+.education-section-card5-description{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); 
+    height: 56vh;
+    width: 35vw;
+    margin-left: 70%;
+    margin-top: -3%;
+    border-radius: 2%;
+    
+}
+
+.education-section-card5-header{ 
+    font-size: 15px;
+    font-weight: 500;
+    color:rgba(245, 245, 245, 0.904);
+    transform: skewX(0deg);
+    text-decoration: underline white;
+    // background: linear-gradient(rgba(20, 206, 76, 0.034), rgba(10, 182, 76, 0.034));
+    border-radius: 50px;
+    text-align: center;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.education-section-card5-header h2:hover{
+     color: azure;
+     transition: 0.3s all;
+}
+
+.education-section-card5-header h2{
+     font-family: "Lucida Handwriting";
+
+}
+
+
+.education-section-card5-description-body{
+    height: 50vh;
+    width: 33vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 3%;
+
+}
+
+.education-section-card5-description-body .card5-lorem1:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+.education-section-card5-description-body .card5-lorem2:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+
+.education-section-card5-description-body .card5-lorem3:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;   
+}
+
+.education-section-card5-description-body .card5-lorem4:hover{
+    color: #2A4421;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+.education-card5-Grades-button{
+    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
+    flex-wrap: wrap;
+    width: 6vw;
+    margin-left: 20%;
+    cursor: pointer;
+    padding: 8px 10px;
+    height: 4vh;
+    font-size: 100%;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.education-card5-Resume-button{
+    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
+    flex-wrap: wrap;
+    width: 6vw;
+    margin-left: 2%;
+    cursor: pointer;
+    margin-top: 1%;
+    padding: 8px 10px;
+    height: 4vh;
+    font-size: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.education-card5-CoverLetter-button{
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
+    width: 6vw;
+    margin-left: 2%;
+    cursor: pointer;
+    margin-top: 1%;
+    padding: 8px 10px;
+    height: 4vh;
+    font-size: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
 }
