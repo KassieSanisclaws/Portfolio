@@ -1,0 +1,156 @@
+@import "../../global.scss";
+
+.remarks-body{
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+
+}
+
+.remarks-section{
+  height: 100%;
+  width: 100%;
+  background-color: #C4F59D;
+  margin-top: .3%;
+}
+
+.remarks-section::before{
+    content: "";  
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    // background-image: url("../../../images/background_img_green15.png");
+    background-color: #2A4421; 
+    
+}
+
+.remarks-section-header{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+     height: 8vh;
+     width: 30vw;
+     margin-left: 35%;
+     transform: skew(0deg);
+    border-radius: 50px; 
+    text-align: center;
+}
+
+.remarks-section-h1-header{
+    color: #f5f5f5; 
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+    font-size: 60px;
+}
+
+.remarks-section-h1-header:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-style: italic;  
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+    transform: scale(1.045);
+    transform: skew(-6deg);
+}
+
+.remarks-section-cards{
+    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
+    height: 88vh;
+    width: 93vw;
+    transform: skew(0deg);
+    border-radius: 50px;
+    margin-left: 4.1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1%;
+
+
+}
+
+.remarks-card{
+   background-color: #7da76f10;
+   margin-top: 4%;
+   height: 25vh;
+   width: 30vw;
+   margin-left: 1.7%;
+  border-radius: 30px;
+}
+
+.remarks-card-body{
+    height: 30vh;
+    width: 45vw;
+   display: grid;
+  
+
+}
+
+.remarks-card-body-section1{
+    height: 20vh;
+    width: 65%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -5.4%;
+}
+
+.remarks-card-header{
+    background-color: #7da76fd0;
+    height: 3vh;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 3.4%;
+}
+
+.remarks-card-image{
+   background-image: url("../../images/generic-images/background_img_green14.png");
+    height: 13vh;
+    width: 7vw;
+    margin-top: 4%;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: -8%;
+    border-radius: 50%;
+    justify-self: center;
+    border: 2px solid black;
+}
+
+
+.remarks-card-image7{
+    background-image: url("../../images/generic-images/background_img_green13.png");
+    height: 13vh;
+    width: 7vw;
+    margin-top: 4%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    border-radius: 50%;
+    margin-left: -8%;
+    border: 2px solid black;
+}
+
+
+.remarks-card-banner{
+    background-color: firebrick;
+    height: 4vh;
+    width: 9vw;
+    margin-top: -20%;
+    margin-left: 3%;
+    position: relative;
+    border-radius: 3px;
+}
+
+
+.remarks-card-description{
+    background: linear-gradient(rgba(20, 206, 76, 0.534), rgba(10, 182, 76, 0.24));
+    height: 18.5vh;
+    width: 19vw;
+    margin-top: 2%;
+    margin-left: -3%;
+    overflow-y: scroll;
+}

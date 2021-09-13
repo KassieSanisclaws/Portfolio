@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
+import PortfolioModalCard1 from '../modals/portfolio-modals/card1/portfoliomodalcard1';
 import "./portfoliocardsection.scss";
 
 
 export default function PortfolioCardSection() {
+ 
+
+
+
     return (
         <div className="portfolioCardSection-body">
 
@@ -19,8 +24,7 @@ export default function PortfolioCardSection() {
                                              <p>Card Image section</p>
                                          </div>
                                          <div className="portfolio-section-card-button-container">
-                                             <button className="portfolio-section-card-container-button"></button>
-                                             <button className="portfolio-section-card-container-button"></button>
+                                            <PortfolioModalCard1 />
                                          </div>
                                      </div>   
 
@@ -36,7 +40,6 @@ export default function PortfolioCardSection() {
                                              <p>Card Image section</p>
                                          </div>
                                          <div className="portfolio-section-card-button-container">
-                                             <button className="portfolio-section-card-container-button"></button>
                                              <button className="portfolio-section-card-container-button"></button>
                                          </div>
                                      </div>   
@@ -54,7 +57,6 @@ export default function PortfolioCardSection() {
                                          </div>
                                          <div className="portfolio-section-card-button-container">
                                              <button className="portfolio-section-card-container-button"></button>
-                                             <button className="portfolio-section-card-container-button"></button>
                                          </div>
                                      </div>   
 
@@ -70,7 +72,6 @@ export default function PortfolioCardSection() {
                                              <p>Card Image section</p>
                                          </div>
                                          <div className="portfolio-section-card-button-container">
-                                             <button className="portfolio-section-card-container-button"></button>
                                              <button className="portfolio-section-card-container-button"></button>
                                          </div>
                                      </div>  
@@ -88,7 +89,6 @@ export default function PortfolioCardSection() {
                                          </div>
                                          <div className="portfolio-section-card-button-container">
                                              <button className="portfolio-section-card-container-button"></button>
-                                             <button className="portfolio-section-card-container-button"></button>
                                          </div>
                                      </div>  
 
@@ -105,7 +105,6 @@ export default function PortfolioCardSection() {
                                          </div>
                                          <div className="portfolio-section-card-button-container">
                                              <button className="portfolio-section-card-container-button"></button>
-                                             <button className="portfolio-section-card-container-button"></button>
                                          </div>
                                      </div>  
 
@@ -121,7 +120,6 @@ export default function PortfolioCardSection() {
                                              <p>Card Image section</p>
                                          </div>
                                          <div className="portfolio-section-card-button-container">
-                                             <button className="portfolio-section-card-container-button"></button>
                                              <button className="portfolio-section-card-container-button"></button>
                                          </div>
                                      </div>  

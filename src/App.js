@@ -8,6 +8,7 @@ import Skills from "./components/Skills/skills";
 import DesignUX from "./components/design-ux/designux";
 import Education from "./components/Education/education";
 import Portfolio from "./components/portfolio/portfolio";
+import Remarks from "./components/remarks/remarks";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,8 +26,8 @@ function App() {
       <Education />
       <DesignUX />
       <Portfolio />
-      {/* <Remarks />
-      <ContactForm /> */}
+      <Remarks />
+      {/* <ContactForm /> */}
      
     </div>  
     </div>
