@@ -1,0 +1,61 @@
+@import"../../global.scss";
+
+.footer-section{
+   
+}
+
+.footer-body{
+    height: 5vh;
+    width: 99.66%;
+    border: 3px solid black;
+    background-color: #C4F59D; 
+    
+}
+
+.footer-banner{
+    // background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
+    background-color: #C4F59D; 
+    height: 5vh;
+    align-content: center;
+}
+
+.footer-banner::before{
+    content: "";  
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 50%;
+    height: 5%;
+    margin-top: .1%;
+    // background-image: url("../../../images/background_img_green15.png");
+    background-color: #2A4421;
+}
+
+.footer-closing-content{
+    border:  1px solid black;
+    background-color: #2A4421;
+    text-align: center;
+    height: 3vh;
+    width: 100%;
+}
+
+.footer-closing-content::before{
+    content: "";  
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 50%;
+    height: 2.8%;
+    margin-top: .1%;
+    // background-image: url("../../../images/background_img_green15.png");
+    background-color: #C4F59D; 
+}
+
+.footer-closing-content h3{
+    transform: skew(0deg);
+    color: black; 
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+}

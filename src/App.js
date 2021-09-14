@@ -9,6 +9,8 @@ import DesignUX from "./components/design-ux/designux";
 import Education from "./components/Education/education";
 import Portfolio from "./components/portfolio/portfolio";
 import Remarks from "./components/remarks/remarks";
+import ContactForm from "./components/contactForm/contactform";
+import Footer from "./components/footer/footer";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +29,11 @@ function App() {
       <DesignUX />
       <Portfolio />
       <Remarks />
-      {/* <ContactForm /> */}
+      <ContactForm />
+      <div className="footer-section">
+             <Footer />
+      </div>
+ 
      
     </div>  
     </div>

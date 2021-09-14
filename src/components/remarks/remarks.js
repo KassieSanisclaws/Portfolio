@@ -1,7 +1,6 @@
 import "./remarks.scss";
 import React from 'react'
 import LoremIpSum from "react-lorem-ipsum";
-import background_img_green12 from "../../images/generic-images/background_img_green12.png"
 
 export default function Remarks() {
     return (
@@ -30,7 +29,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                            <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>
@@ -53,7 +57,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                  <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>
@@ -76,7 +85,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                  <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>
@@ -98,7 +112,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                  <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>
@@ -120,7 +139,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                  <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>
@@ -142,7 +166,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                  <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>
@@ -164,7 +193,12 @@ export default function Remarks() {
                                              </ul>
                                       </div>
                                   <div className="remarks-card-banner">
-                                            <p>this is the card banner section</p>
+                                  <div className="remarks-carousel-banner">
+                                                  <div className="remarks-banner-card1"></div>
+                                                  <div className="remarks-banner-card2"></div>
+                                                  <div className="remarks-banner-card3"></div>
+                                                  <div className="remarks-banner-card4"></div>
+                                            </div>
                                   </div>
                               </div>     
                           </div>

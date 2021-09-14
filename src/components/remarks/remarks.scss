@@ -5,7 +5,7 @@
    padding: 0;
    height: 100%;
    width: 100%;
-
+   
 }
 
 .remarks-section{
@@ -13,6 +13,8 @@
   width: 100%;
   background-color: #C4F59D;
   margin-top: .3%;
+  border: 3px solid black;
+  margin-left: -.33%;
 }
 
 .remarks-section::before{
@@ -107,6 +109,26 @@
     margin-left: 3.4%;
 }
 
+.remarks-card-header h2{
+    color: #f5f5f5; 
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+}
+
+.remarks-card-header h2:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-style: italic;  
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+    transform: scale(1.045);
+    transform: skew(-6deg);
+}
+
 .remarks-card-image{
    background-image: url("../../images/generic-images/background_img_green14.png");
     height: 13vh;
@@ -118,6 +140,14 @@
     border-radius: 50%;
     justify-self: center;
     border: 2px solid black;
+}
+
+.remarks-card-image:hover{
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;  
 }
 
 
@@ -134,15 +164,121 @@
     border: 2px solid black;
 }
 
+.remarks-card-image7:hover{
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;  
+}
+
 
 .remarks-card-banner{
-    background-color: firebrick;
     height: 4vh;
     width: 9vw;
     margin-top: -20%;
     margin-left: 3%;
     position: relative;
     border-radius: 3px;
+}
+
+.remarks-carousel-banner{
+    background-color: rgba(127, 255, 212, 0.555);
+    height: 4vh;
+    width: 9vw;
+    // overflow-x: scroll;
+    border-radius: 2%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: hidden;
+}
+
+.remarks-carousel-banner:hover{
+    cursor: pointer;
+    transition: 0.3s all;
+    transform: scale(1.025);
+}
+
+
+.remarks-banner-card1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 30%;
+    height: 3.4vh;
+    width: 2vw;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.remarks-banner-card1:hover{
+    transition: 0.3s all;
+    transform: scale(1.055);
+}
+
+.remarks-banner-card2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 30%;
+    height: 3.4vh;
+    width: 2vw;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.remarks-banner-card2:hover{
+    transition: 0.3s all;
+    transform: scale(1.065);
+}
+
+.remarks-banner-card3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 30%;
+    height: 3.4vh;
+    width: 2vw;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.remarks-banner-card3:hover{
+    transition: 0.3s all;
+    transform: scale(1.075);
+}
+
+.remarks-banner-card4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 30%;
+    height: 3.4vh;
+    width: 2vw;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.remarks-banner-card4:hover{
+    transition: 0.3s all;
+    transform: scale(1.085);
+}
+
+.remarks-banner-card5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 30%;
+    height: 3.4vh;
+    width: 2vw;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.remarks-banner-card5:hover{
+    transition: 0.3s all;
+    transform: scale(1.085);
 }
 
 
