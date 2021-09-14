@@ -1,22 +1,22 @@
-import "./portfoliomodalcard1.scss";
 import React from 'react'
+import "./portfoliomodalcard2.scss";
 
 
-const PortfolioModalCard1 = ({ closeModal }) => {
-    
-    return (   
-        <div className="portfoliomodal-card1-body">  
-             <div className="portfoliomodal-card1-section">
+
+export default function PortfolioModalCard2({ closeModal }) {
+    return (
+        <div className="portfoliomodal-card2-">
+               <div className="portfoliomodal-card2-section">
                <div id="modalCard1" className="portfolio-modal">
-                        <span className="closeModalBtn-card1" onClick={() => closeModal(false)}>&times;</span>
-                            <div className="portfoliomodal-card1-section-header">
+                        <span className="closeModalBtn-card2" onClick={() => closeModal(false)}>&times;</span>
+                            <div className="portfoliomodal-card2-section-header">
                                  <h1 className="section-header-h1">Modal Project1</h1>
                            </div>
 
                         <div className="portfolio-modal-body">
                              
-                             <div className="portfolio-modal-video-section-card1">
-                                 <div className="portfolio-modal-video-section-body-card1">
+                             <div className="portfolio-modal-video-section-card2">
+                                 <div className="portfolio-modal-video-section-body2">
                                          <p>this is the video play section</p>
                                  </div>
                              </div>
@@ -45,9 +45,7 @@ const PortfolioModalCard1 = ({ closeModal }) => {
                     </div>  
 
                 </div>       
+            
         </div>
-       
-    );
+    )
 }
-
-export default PortfolioModalCard1;
