@@ -29,8 +29,8 @@ export default function AboutMe() {
                                 <li className="lorem8"><LoremIpsum p={1}/></li>
                          </ul>
                               </div>
-                          <button className="about-card1-section-button1">cover letter</button>
-                          <button className="about-card1-section-button2">resume</button>
+                          <button className="about-card1-section-button1">Cover Letter</button>
+                          <button className="about-card1-section-button2">Resume</button>
                         </div>   
                     </div>
 

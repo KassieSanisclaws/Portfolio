@@ -1,24 +1,25 @@
 @import"../../../../global.scss";
 
-.portfoliomodal-card2-body{
+
+.portfoliomodal-card3-body{
        
        
 }
 
-.portfoliomodal-card2-section{
+.portfoliomodal-card3-section{
          font-size: 17px;
          line-height: 1.6;
          font-family: "Lucida Handwriting";
 
 }
 
-.portfoliomodal-card2-section-header{
+.portfoliomodal-card3-section-header{
    background: linear-gradient(rgba(20, 206, 76, 0.801), rgba(10, 182, 76, 0.438));
    height: 9.3vh;
    width: 100%;
 }
 
-.section-header-h1-card2{
+.section-header-h1-card3{
    color: #f5f5f5; 
    font-weight: 500;
    text-transform: uppercase;
@@ -28,7 +29,7 @@
    text-align: center;
 }
 
-.section-header-h1-card2:hover{
+.section-header-h1-card3:hover{
    color: rgb(255, 255, 255);
    font-weight: bolder;
    font-style: italic;  
@@ -40,25 +41,7 @@
    transform: skew(-6deg);
 }
 
-.modal-button{
-   margin-top: 1%;
-   background-color: aqua;
-   height: 5vh;
-   width: 7vw;
-   border: 2;
-   color: blueviolet;
-   margin-left: 25%;
-   border-radius: 10px;
-}
-
-
-.modal-button:hover{
-   background-color: chartreuse;
-   cursor: pointer;
-}
-
-
-.portfolio-modal-card2{
+.portfolio-modal-card3{
    display: block;  
    position: fixed;
    z-index: 1;
@@ -68,11 +51,10 @@
    width: 100%;
    overflow: auto;
    background-color: rgba(0,0,0,0.5);
-   
 }
 
 
-.portfolio-modal-body-card2{
+.portfolio-modal-body-card3{
    background-color: #f4f4f4;
    padding: 20px;
    width: 97.55%;
@@ -80,11 +62,10 @@
    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
    display: grid;
    overflow: hidden;
-   
 }
 
-.portfolio-modal-video-section-card2{
-   background: linear-gradient(rgba(20, 206, 76, 0.644), rgba(10, 182, 76, 0.164));
+.portfolio-modal-video-section-card3{
+   background: linear-gradient(rgba(20, 206, 76, 0.863), rgba(10, 182, 76, 0.329));
    height: 80vh;
    width: 45vw;
    grid-column: 1/4;
@@ -93,19 +74,19 @@
    margin-left: -3%;
 }
 
-.portfolio-modal-video-section-body-card2{
-   background-image: url("../../../../images/generic-images/background_img_green13.png");
+.portfolio-modal-video-section-body-card3{
+   background-image: url("../../../../images/generic-images/background_img_green15.png");
    height: 60vh;
    width: 43vw;
    margin-left: 2.5%;
    margin-top: 2%;
-   border-radius: 20px;
+   border-radius: 10px;
 }
 
-.portfolio-modal-title-section-card2{
-   background: linear-gradient(rgba(20, 206, 76, 0.623), rgba(10, 182, 76, 0.363));
-   transform: skew(0deg);
-   height: 23vh;
+.portfolio-modal-title-section-card3{
+   background: linear-gradient(rgba(20, 206, 76, 0.863), rgba(10, 182, 76, 0.329));
+    transform: skew(0deg);
+   height: 25vh;
    width: 45vw;
    grid-column: 6/7;
    grid-row: 1;
@@ -113,7 +94,7 @@
    margin-top: -3%;
 }
 
-.portfolio-modal-title-section-body-card2{
+.portfolio-modal-title-section-body-card3{
    height: 22vh;
    width: 42vw;
    margin-left: 2.6%;
@@ -123,45 +104,44 @@
    border-radius: 20px;
    height: 15vh;
    width: 41vw;
-   background: linear-gradient(rgba(20, 206, 76, 0.349), rgba(10, 182, 76, 0.288));
+   background: linear-gradient(rgba(20, 206, 76, 0.589), rgba(10, 182, 76, 0.329));
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   margin-left: 1%;
-   margin-top: 2%;
+   margin-left: 2%;
 }
 
-.title2-card1{
-   background-image: url("../../../../images/icon-images/html_icon2.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-    height: 8vh;
-    width: 8vw;
-    margin-left: 43%;
-    margin-top: 17%;
-    border-radius: 7px;
-}
-
-.title2-card2{
+.title3-card1{
    background-image: url("../../../../images/icon-images/javascript_icon2.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+     height: 8vh;
+     width: 8vw;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-left: 43%;
+     margin-top: 17%;
+     border-radius: 7px;
+}
+
+.title3-card2{
+   background-image: url("../../../../images/icon-images/css_icon2.png");
    height: 8vh;
    width: 8vw;
-   margin-left: 43%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 50%;
    margin-top: 17%;
    border-radius: 7px;
 }
 
-.title2-card3{
-   background-image: url("../../../../images/icon-images/css_icon2.png");
+.title3-card3{
+   background-image: url("../../../../images/icon-images/html_icon2.png");
+   height: 8vh;
+   width: 8vw;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 8vh;
-   width: 8vw;
-   margin-left: 43%;
+   margin-left: 55%;
    margin-top: 17%;
    border-radius: 7px;
 }
@@ -169,10 +149,10 @@
 .description-header{
     margin-top: 3%;
     color: rgb(255, 255, 255);
-     text-decoration: underline;
+    text-decoration: underline;
 }
 
-.description-p2{
+.description-p3{
    text-align: center;
    margin-top: 4.5%;
    color: rgb(255, 255, 255);
@@ -183,12 +163,11 @@
    font-size: 22px;
    transform: scale(1.045);
    transform: skew(-6deg);
-   margin-left: -5%;
-  
+   margin-left: -5%; 
 }
 
-.portfolio-modal-description-section-card2{
-   background: linear-gradient(rgba(20, 206, 76, 0.445), rgba(10, 182, 76, 0.377));
+.portfolio-modal-description-section-card3{
+   background: linear-gradient(rgba(20, 206, 76, 0.24), rgba(10, 182, 76, 0.418));
    height: 45vh;
    width: 45vw;
    grid-column: 6/7;
@@ -197,14 +176,14 @@
    margin-top: -30.9rem;
 }
 
-.portfolio-modal-description-section-body-card2{
-   height: 83%;
-   width: 95%;
-   margin-left: 1.88%;
-   margin-top: .8%;
+.portfolio-modal-description-section-body-card3{
+    height: 83%;
+    width: 95%;
+    margin-left: 1.88%;
+    margin-top: 1%;
 }
 
-.portfolio-modal-card2-card{
+.portfolio-modal-card3-card{
    background: linear-gradient(rgba(20, 206, 76, 0.349), rgba(10, 182, 76, 0.288));
    height: 88%;
    width: 98%;
@@ -214,26 +193,25 @@
    border-radius: 20px;
 }
 
-.portfolio-modal-card2-card:hover{
-   background-color: rgba(172, 255, 47, 0.075);
+.portfolio-modal-card3-card:hover{
+   background-color: rgba(172, 255, 47, 0.308);
 }
 
-
-.closeModalBtn-card2{
+.closeModalBtn-card3{
   color: aliceblue;
   float: right;
   font-size: 50px;
   margin-right: 1%;
-//   margin-top: 2%;
+ 
 }
 
-.closeModalBtn-card2:hover{
+.closeModalBtn-card3:hover{
    color: #000;
    text-decoration: none;
    cursor: pointer;
 }
 
-.modal-card2-button{
+.modal-card3-button{
    margin-top: .3%;
    background-color: aqua;
    height: 4vh;
@@ -245,7 +223,7 @@
    margin-left: 40%;
 }
 
-.modal-card2-button:hover{
+.modal-card3-button:hover{
   background-color: chartreuse;
   cursor: pointer;
 }

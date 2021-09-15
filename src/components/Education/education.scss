@@ -69,15 +69,17 @@
 }
 
 .education-section-card1-image{
-     height: 30vh;
+     height: 29vh;
      width: 20vw;
      background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
      margin-left: 5%;
      margin-top: 2%;
-     border-radius: 15%;
+     border-radius: 50px;
      color: cornsilk;
-     background-image: url("../../images/generic-images/background_img_green15.png");
-     box-shadow: 1px 1px 1px 4px black;
+     background-image: url("../../images/generic-images/bmw_img.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .education-section-card2-image{
@@ -86,10 +88,12 @@
      background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); 
      margin-left: -9%;
      margin-top: 2%;
-     border-radius: 15%;
+     border-radius: 8%;
      color: cornsilk;
-     background-image: url("../../images/generic-images/background_img_green14.png");
-     box-shadow: 1px 1px 1px 4px black;
+     background-image: url("../../images/generic-images/college_img.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .education-section-card3-image{
@@ -100,15 +104,17 @@
      margin-top: 1%;
      border-radius: 15px;
      color: cornsilk;
-     background-image: url("../../images/generic-images/background_img_green13.png");
-     box-shadow: 1px 1px 1px 4px black;
+     background-image: url("../../images/generic-images/trios_college.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .education-section-card4-header{
     text-align: center;
     border-radius: 15px;
     font-weight: bolder;
-    color:rgb(255, 245, 245);
+    color:rgb(252, 252, 252);
     text-decoration: underline white;
    
 }
@@ -117,6 +123,7 @@
    color: rgb(248, 255, 255);
    transition: 0.3s all;
    text-shadow: 4px 2px 4px 4px rgb(255, 255, 255);
+   font-weight: bolder;
 }
 
 .education-card4-header-h2{
@@ -147,40 +154,40 @@
 }
 
 .education-section-card4-description-body .card4-lorem1:hover{
-      color:springgreen;
+      color:rgb(63, 59, 59);
       transition: 0.3s all;
       transform: scale(1.045);
       box-sizing: border-box;
       box-shadow: 2px 2px 2px 2px black;
       margin-top: 1%;
-   
+      font-weight: bold;
 }
 
 .education-section-card4-description-body .card4-lorem2:hover{
-    color: #2A4421;
+    color:rgb(63, 59, 59);
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;
-
+    font-weight: bold;
 }
 
 .education-section-card4-description-body .card4-lorem3:hover{
-    color: #2A4421;
+    color:rgb(63, 59, 59);
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;
-    
+    font-weight: bold;
 }
 
 .education-section-card4-description-body .card4-lorem4:hover{
-    color: #2A4421;
+    color:rgb(63, 59, 59);
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;
-    
+    font-weight: bold;
 }
 
 .education-section-card5-description{
@@ -227,61 +234,48 @@
 }
 
 .education-section-card5-description-body .card5-lorem1:hover{
-    color: #2A4421;
+    color: #d6e0d3;
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;
-    
+    font-weight: bold;
 }
 
 .education-section-card5-description-body .card5-lorem2:hover{
-    color: #2A4421;
+    color: #d6e0d3;
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;
-    
+    font-weight: bold;
 }
 
 
 .education-section-card5-description-body .card5-lorem3:hover{
-    color: #2A4421;
+    color: #d6e0d3;
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;   
+    font-weight: bold;
 }
 
 .education-section-card5-description-body .card5-lorem4:hover{
-    color: #2A4421;
+    color: #d6e0d3;
     transition: 0.3s all;
     transform: scale(1.045);
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px black;
+    font-weight: bold;
     
 }
 
-.education-card5-Grades-button{
-    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
-    flex-wrap: wrap;
-    width: 6vw;
-    margin-left: 20%;
-    cursor: pointer;
-    padding: 8px 10px;
-    height: 4vh;
-    font-size: 100%;
-    overflow: hidden;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px black;
-}
-
 .education-card5-Resume-button{
-    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
+    background-color: #7da76f;
     flex-wrap: wrap;
     width: 6vw;
-    margin-left: 2%;
+    margin-left: 30%;
     cursor: pointer;
     margin-top: 1%;
     padding: 8px 10px;
@@ -290,13 +284,21 @@
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px black;
+}
+
+.education-card5-Resume-button:hover{
+    color: #d6e0d3;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    font-weight: bold;
 }
 
 .education-card5-CoverLetter-button{
     flex-wrap: wrap;
-    background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
+    background-color: #7da76f;
     width: 6vw;
-    margin-left: 2%;
     cursor: pointer;
     margin-top: 1%;
     padding: 8px 10px;
@@ -305,4 +307,13 @@
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px black;
+}
+
+.education-card5-CoverLetter-button:hover{
+    color: #d6e0d3;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    font-weight: bold;
 }

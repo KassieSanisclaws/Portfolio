@@ -16,10 +16,64 @@
     margin-top: 3%;
 }
 
-.portfolio-section-card-header{
+.portfolio-section-card-header1{
     background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
     border-radius: 50px;
     text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.portfolio-section-card-header2{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.portfolio-section-card-header3{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.portfolio-section-card-header4{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.portfolio-section-card-header5{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.portfolio-section-card-header6{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.portfolio-section-card-header7{
+    background: linear-gradient(rgba(20, 206, 76, 0.137), rgba(10, 182, 76, 0.13));
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
 .portfolio-section-card:hover{
@@ -30,36 +84,67 @@
 
 }
 
-.portfolio-section-card-image{
-    background-image: url("../../images/intro-images/background_img_green.png");
-    height: 15vh;
+.portfolio-section-card-image1{
+    background-image: url("../../images/generic-images/calculator.png");
+    height: 25vh;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.portfolio-section-card-banner{
-    // background-color: cadetblue;
-    text-align: center;
-    text-transform: uppercase;
-    color: aliceblue;
-    height: 4vh;
+.portfolio-section-card-image2{
+    background-image: url("../../images/generic-images/clock.png");
+    height: 25vh;
     width: 100%;
-    font-weight: 500;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.portfolio-section-card-banner p{
-    margin-top: 2%;
-    transform: skew(-6deg);
-    transition: 0.3s all;
-    text-decoration: underline;
-    font-style: italic;
-    font-weight: bolder;
-    
+.portfolio-section-card-image3{
+    background-image: url("../../images/generic-images/todoapp.png");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.portfolio-section-card-image-container{
-    background-color: darkorchid;
+.portfolio-section-card-image4{
+    background-image: url("../../images/generic-images/linear\ serach\ .png");
+    height: 25vh;
     width: 100%;
-    height: 5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-section-card-image5{
+    background-image: url("../../images/generic-images/calculator.png");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-section-card-image6{
+    background-image: url("../../images/generic-images/calculator.png");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-section-card-image7{
+    background-image: url("../../images/generic-images/calculator.png");
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .portfolio-section-card-button-container{
@@ -91,3 +176,122 @@
     box-shadow: 1px 1px 1px 1px white;
 }
 
+
+.modal-button1{
+    margin-top: -.1;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button1:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+ }
+
+.modal-button2{
+    margin-top: -.1%;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button2:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+}
+
+.modal-button3{
+    margin-top: -.1%;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button3:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+}
+
+.modal-button4{
+    margin-top: -.1%;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button4:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+}
+
+.modal-button5{
+    margin-top: -.1%;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button5:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+}
+
+.modal-button6{
+    margin-top: -.1%;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button6:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+}
+
+.modal-button7{
+    margin-top: -.1%;
+    background-color: #497e3773;
+    height: 5vh;
+    width: 7vw;
+    border: 2;
+    color: blueviolet;
+    margin-left: 25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-button7:hover{
+    background-color: rgba(0, 255, 98, 0.212);
+    cursor: pointer;
+}
