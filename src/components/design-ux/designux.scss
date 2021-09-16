@@ -54,6 +54,10 @@
    background: linear-gradient(rgba(20, 206, 76, 0), rgba(10, 182, 76, 0.062));
    border-radius: 50px;
    width: 43vw;
+   border-radius: 13px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px 5px black;
+   text-align: center;
 }
 
 .designux-header h1{
@@ -87,6 +91,9 @@
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
     height: 98%;
     width: 90%;
+    border-radius: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
 }
 
 
@@ -165,7 +172,6 @@
     position: relative;
     clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
-
 }
 
 
@@ -178,7 +184,6 @@
       left: 0;
       border-radius: 20px 20px 0 0;
       opacity: 0.7;
-
 }
 
 
@@ -307,7 +312,6 @@
 
 .designux-button-card1{
     flex-wrap: wrap;
-    // background: linear-gradient(rgba(20, 206, 76, 0.555), rgba(10, 182, 76, 0.479));
     background-color: #7da76f;
     width: 15vw;
     margin-left: 16%;
@@ -364,60 +368,3 @@
     box-shadow: 1px 1px 1px 1px black;
 }
 
-
-// .portfolio-buttons{
-//   position: absolute;
-//   margin-top: -18%;
-
-
-// }
-
-
-// .portfolio-prev{
-//    border-radius: 10px;
-//    border: none;
-//    background: none;
-//    font-weight: 500;
-//    cursor:  pointer;
-//    height: 15vh;
-//    width: 2%;
-//    background-color: rgba(0, 0, 0, 0.432);  
-//    transform: skewX(0deg);
-//    position: absolute;
-//    margin-top: -19%;
-// }
-
-
-// .portfolio-prev:hover{
-//     background-color: rgb(176, 214, 120);
-//     transform-style: preserve-3d;
-//     transform: scale(1.05);
-//     transition: all ease 0.2s;
-//     cursor: pointer;
-//     box-shadow: 3px 3px 3px rgb(255, 255, 255);
-// }
-
-
-// .portfolio-next{
-//     border-radius: 10px;
-//     border: 0;
-//     font-weight: 500;
-//     cursor:  pointer;
-//     width: 2%;
-//     height: 60vh;
-//     background-color: rgba(0, 0, 0, 0.247);  
-//     transform: skewX(0deg);
-//     position: absolute;
-//     margin-left: 94%;
-//     margin-top: -29.4%;
-// }
-
-
-// .portfolio-next:hover{
-//     background-color: rgb(176, 214, 120);
-//     transform-style: preserve-3d;
-//     transform: scale(1.05);
-//     transition: all ease 0.2s;
-//     cursor: pointer;
-//     box-shadow: 3px 3px 3px rgb(255, 255, 255);
-// }

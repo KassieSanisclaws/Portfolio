@@ -37,6 +37,9 @@
      transform: skew(0deg);
     border-radius: 50px; 
     text-align: center;
+    border-radius: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
 }
 
 .remarks-section-h1-header{
@@ -70,8 +73,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 1%;
-
-
+    border-radius: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
 }
 
 .remarks-card{
@@ -80,15 +84,15 @@
    height: 25vh;
    width: 30vw;
    margin-left: 1.7%;
-  border-radius: 30px;
+   border-radius: 13px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px 5px black;
 }
 
 .remarks-card-body{
     height: 30vh;
     width: 45vw;
    display: grid;
-  
-
 }
 
 .remarks-card-body-section1{

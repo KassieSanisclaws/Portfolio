@@ -37,15 +37,17 @@
    background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062));
    border-radius: 50px;
    margin-top: .3%;
-   
+   border-radius: 13px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px 5px black;
 }
 
 .education-header h1{
-    width: 40%;
+    width: 30%;
     font-size: 55px;
     text-align: center;
     color:rgb(255, 245, 245);
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .education-header h1:hover{
@@ -66,6 +68,9 @@
     grid-gap: 2rem;
     margin-left: 1.3%;
     border-radius: 30px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
 }
 
 .education-section-card1-image{
@@ -80,7 +85,17 @@
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     box-sizing: border-box;
+     box-shadow: 1px 1px 5px black;
 }
+
+.education-section-card1-image:hover{
+    transition: 0.3s all;
+        transform: scale(1.045);
+        box-sizing: border-box;
+        box-shadow: 1px 1px 5px black;
+        cursor: pointer;  
+    }
 
 .education-section-card2-image{
      height: 30vh;
@@ -88,12 +103,22 @@
      background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); 
      margin-left: -9%;
      margin-top: 2%;
-     border-radius: 8%;
+     border-radius: 10%;
      color: cornsilk;
      background-image: url("../../images/generic-images/college_img.png");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     box-sizing: border-box;
+     box-shadow: 1px 1px 5px black;
+}
+
+.education-section-card2-image:hover{
+transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;  
 }
 
 .education-section-card3-image{
@@ -108,7 +133,17 @@
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     box-sizing: border-box;
+     box-shadow: 1px 1px 5px black;
 }
+
+.education-section-card3-image:hover{
+    transition: 0.3s all;
+        transform: scale(1.045);
+        box-sizing: border-box;
+        box-shadow: 1px 1px 5px black;
+        cursor: pointer;  
+    }
 
 .education-section-card4-header{
     text-align: center;
@@ -131,7 +166,16 @@
     text-transform: uppercase;
     font-family: "Lucida Handwriting";
     transform: skewX(-6deg);
-     
+}
+
+.education-card4-header-h2:hover{
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;  
+    width: 25vw;
+    margin-left: 9%;
 }
 
 .education-section-card4-description{
@@ -141,6 +185,9 @@
     margin-top: -4%;
     margin-left: 20%;
     border-radius: 2%;
+    border-radius: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
 }
 
 .education-section-card4-description-body{
@@ -197,7 +244,9 @@
     margin-left: 70%;
     margin-top: -3%;
     border-radius: 2%;
-    
+    border-radius: 13px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
 }
 
 .education-section-card5-header{ 
@@ -211,6 +260,16 @@
     text-align: center;
     border-radius: 15px;
     text-transform: uppercase;
+}
+
+.education-card5-header-h2:hover{
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;  
+    width: 25vw;
+    margin-left: 15%;
 }
 
 .education-section-card5-header h2:hover{
